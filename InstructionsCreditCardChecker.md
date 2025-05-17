@@ -24,6 +24,7 @@ Prerequisites
 1. In order to complete this project, you should have completed the first few sections of Introduction to JavaScript (through Learn JavaScript: Loops).
 
 Project Requirements
+
 2.
 Look over the starter code. There are 15 arrays that each contain the digits of separate credit card numbers. They all have prefixes to reflect their status, i.e. variables that start with valid contain a valid number, whereas invalid do not, and mystery variables can be either. There is also a batch array that stores all of the provided credit cards in a single array.
 
@@ -58,6 +59,7 @@ If the number doesn’t start with any of the numbers listed, print out a messag
 idInvalidCardCompanies() should return an array of companies that have mailed out cards with invalid numbers. This array should NOT contain duplicates, i.e. even if there are two invalid Visa cards, "Visa" should only appear once in the array.
 
 Project Extensions & Solution
+
 6.
 Great work! Visit our forums to compare your project to our sample solution code. You can also learn how to host your own solution on GitHub so you can share it with other learners! Your solution might look different from ours, and that’s okay! There are multiple ways to solve these projects, and you’ll learn more by seeing others’ code.
 
