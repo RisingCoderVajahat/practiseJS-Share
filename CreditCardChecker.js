@@ -75,7 +75,7 @@ console.log(validateCred(valid2));
 console.log(validateCred(invalid1));
 console.log(validateCred(invalid2));
 
-//Done it in 1 hour 10 mins, 1 loop/undoubled digits were missed!
+
 
 function findInvalidCards(nArr) {
   let invalidCards = nArr.filter((arr) => validateCred(arr) !== true);
@@ -124,9 +124,9 @@ function idInvalidCardCompanies(ICNArr) {
 console.log(idInvalidCardCompanies(invalidCardsArray));
 console.log(idInvalidCardCompanies([7, 8, 4, 8, 9, 6]));
 
-//Done it in 2 hour 10 mins. Took a 20mins nap and the problem, company names should not repeat, is solved!!!
 
-//-------------------------------------------
+
+//------------------------------------------------------
 //Last CHALLENGE YOURSELF task!!!! below, completed in depth, MUST watch. Part 1, Part 2 (main) => invalidToValidCard() below.
 
 //Part 1. Function: Number string to number array.
@@ -207,8 +207,8 @@ function invalidToValidCard(arr) {
   if (remainder === 0) {
     return 'Given card is valid already.'
   } 
+    
   else {
-    //lastDigit = 10 - (totalDigitSum % 10);
     if ( lastDigit >= remainder ) {
       lastDigit = lastDigit - remainder;
     } else {
@@ -221,30 +221,30 @@ function invalidToValidCard(arr) {
     //Rechecking new card number validity = true/false, by original validateCred(arr) function.
     let recheckStatus = validateCred(newValidArr);
 
-    return `Unvalid card number: ${arr} with remainder:${remainder}, is converted to valid new card number: ${newValidArr}. Recheck status:${recheckStatus}`;
+    return `Unvalid card number: ${arr} with remainder:${remainder}, is corrected to NEW card number: ${newValidArr}. Recheck VALIDITY: ${recheckStatus}`;
     } 
 }
 
 //Test;
 console.log('**Test results of function invalidToValidCard():');
 //Validity unknown cards.
-console.log ('Card Name: mystery1 => '+invalidToValidCard(mystery1));
-console.log ('Card Name: mystery2 => '+invalidToValidCard(mystery2));
-console.log ('Card Name: mystery3 => '+invalidToValidCard(mystery3));
-console.log ('Card Name: mystery4 => '+invalidToValidCard(mystery4));
-console.log ('Card Name: mystery5 => '+invalidToValidCard(mystery5));
+console.log ('==>> Card Name: mystery1 => '+invalidToValidCard(mystery1));
+console.log ('==>> Card Name: mystery2 => '+invalidToValidCard(mystery2));
+console.log ('==>> Card Name: mystery3 => '+invalidToValidCard(mystery3));
+console.log ('==>> Card Name: mystery4 => '+invalidToValidCard(mystery4));
+console.log ('==>> Card Name: mystery5 => '+invalidToValidCard(mystery5));
 //Already known valid cards.
-console.log ('Card Name: valid1 => '+invalidToValidCard(valid1));
-console.log ('Card Name: valid2 => '+invalidToValidCard(valid2));
-console.log ('Card Name: valid3 => '+invalidToValidCard(valid3));
-console.log ('Card Name: valid4 => '+invalidToValidCard(valid4));
-console.log ('Card Name: valid5 => '+invalidToValidCard(valid5));
+console.log ('==>> Card Name: valid1 => '+invalidToValidCard(valid1));
+console.log ('==>> Card Name: valid2 => '+invalidToValidCard(valid2));
+console.log ('==>> Card Name: valid3 => '+invalidToValidCard(valid3));
+console.log ('==>> Card Name: valid4 => '+invalidToValidCard(valid4));
+console.log ('==>> Card Name: valid5 => '+invalidToValidCard(valid5));
 //Already known unvalid cards.
-console.log ('Card Name: invalid1 => '+invalidToValidCard(invalid1));
-console.log ('Card Name: invalid2 => '+invalidToValidCard(invalid2));
-console.log ('Card Name: invalid3 => '+invalidToValidCard(invalid3));
-console.log ('Card Name: invalid4 => '+invalidToValidCard(invalid4));
-console.log ('Card Name: invalid5 => '+invalidToValidCard(invalid5));
+console.log ('==>> Card Name: invalid1 => '+invalidToValidCard(invalid1));
+console.log ('==>> Card Name: invalid2 => '+invalidToValidCard(invalid2));
+console.log ('==>> Card Name: invalid3 => '+invalidToValidCard(invalid3));
+console.log ('==>> Card Name: invalid4 => '+invalidToValidCard(invalid4));
+console.log ('==>> Card Name: invalid5 => '+invalidToValidCard(invalid5));
 
 
 //Test for string inputs and other data types.
