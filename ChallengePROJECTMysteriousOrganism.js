@@ -167,8 +167,7 @@ function twoMostRelatedpAequor(thirtyObjectsArray) {
     arrayToBeSorted.sort((a, b) => b[2] - a[2]);
     console.log(arrayToBeSorted);
 
-    return `The two most related instances of pAequor are specimen ${arrayToBeSorted[0][0]} and 
-    specimen ${arrayToBeSorted[0][1]} with having ${arrayToBeSorted[0][2]}% DNA in common!`;
+    return `The two most related instances of pAequor are specimen ${arrayToBeSorted[0][0]} and specimen ${arrayToBeSorted[0][1]} with having ${arrayToBeSorted[0][2]}% DNA in common!`;
 }
 
 //Test:
