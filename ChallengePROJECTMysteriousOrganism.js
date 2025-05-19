@@ -160,12 +160,12 @@ function twoMostRelatedpAequor(thirtyObjectsArray) {
             arrayOfsinglePairComparisonArrays.push(singlePairComparisonArray);      
         }
     }
-    console.log(arrayOfsinglePairComparisonArrays);
-    console.log(arrayOfsinglePairComparisonArrays.length);
+    console.log(arrayOfsinglePairComparisonArrays); //optional
+    console.log(arrayOfsinglePairComparisonArrays.length); //optional
 
     let arrayToBeSorted = [...arrayOfsinglePairComparisonArrays];
     arrayToBeSorted.sort((a, b) => b[2] - a[2]);
-    console.log(arrayToBeSorted);
+    console.log(arrayToBeSorted); //optional
 
     return `The two most related instances of pAequor are specimen ${arrayToBeSorted[0][0]} and specimen ${arrayToBeSorted[0][1]} with having ${arrayToBeSorted[0][2]}% DNA in common!`;
 }
