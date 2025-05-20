@@ -177,7 +177,7 @@ console.log(twoMostRelatedpAequor(StoreDnaSampleArray)); //Last Part Of Output.
 
 //Code ends here. Thanks!
 //Coded by: RisingCoderVajahat@gmail.com or DongreVajahat@gmail.com . My Twitter: https://x.com/VajahatDongre i.e. @VajahatDongre - Damon Ryder DV7.
-//Original code on Codecademy and on VS code local.
+//Original code on Code****** and on VS code local.
 
 
 
