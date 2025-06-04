@@ -268,3 +268,7 @@ console.log('==>> Input Name: invalidTypeInput1 => ' + invalidToValidCard(invali
 console.log('==>> Input Name: invalidTypeInput2 => ' + invalidToValidCard(invalidTypeInput2));
 console.log('==>> Input Name: invalidTypeInput3 => ' + invalidToValidCard(invalidTypeInput3));
 console.log('==>> Input Name: invalidTypeInput4 => ' + invalidToValidCard(invalidTypeInput4));
+
+//Code ends here. Thanks!
+//Coded by: RisingCoderVajahat@gmail.com or DongreVajahat@gmail.com . My Twitter: https://x.com/VajahatDongre i.e. @VajahatDongre - Damon Ryder DV7.
+//Original code on Code****** and on VS code local.
