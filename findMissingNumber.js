@@ -41,4 +41,4 @@ console.log(findMissingNumber(arr5));
 //Output: Next number is 0
 
 
-//if (1+[...arr][i]!==[...arr][i+1]) (not needed)
+
