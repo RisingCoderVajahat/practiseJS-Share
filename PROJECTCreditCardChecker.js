@@ -160,7 +160,7 @@ let invalidTypeInput4 = NaN;
 
 
 //***IMP - Create a function that will convert invalid credit card numbers into valid numbers. Input is a card number array.
-
+//Part 2 (main) => invalidToValidCard()
 function invalidToValidCard(arr) {
 
     //trying to add string (of numbers) input availability!!!
